@@ -7,4 +7,4 @@ Actions performed:
 3. Sprite is connected 
 4. Favicon was connected to the web-page  
 
-[Page](https://lirikochi.github.io/cv-page/](https://lirikochi.github.io/first_layout/) is here
+[Page](https://lirikochi.github.io/first_layout/) is here
