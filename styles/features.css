@@ -1,0 +1,41 @@
+.wrap1,
+.wrap2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.wrap1 {
+    margin-top: 102px;
+    margin-bottom: 88px;
+}
+
+.card {
+    width: 370px;
+    height: 305.43px;
+}
+
+.icon-features {
+    width: 100px;
+    height: 100px;
+}
+
+.card__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: var(--color-darkblue);
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.card__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-greyblue);
+}

@@ -1,0 +1,71 @@
+.team {
+    padding-top: 114px;
+    height: 619px;
+    margin-right: 170px;
+    margin-left: 170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 270px;
+    row-gap: 30px;
+}
+
+.card__img {
+    box-shadow: 1px 5px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: var(--color-darkblue);
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.18);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.card__subtitle {
+    padding: 0;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: var(--color-pink);
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.18);
+}
+
+.card__description {
+    padding-top: 17px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-greyblue);
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.18);
+}
+
+.icons {
+    display: flex;
+    margin-top: 37px;
+    column-gap: 6px;
+}
+
+.icons-team {
+    width: 39px;
+    height: 39px;
+    fill: transparent;
+    box-shadow: 0px 2px 4px 1px rgba(198, 203, 205, 0.27);
+}
+
+.icons-team:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    stroke: rgb(0, 128, 255);
+}
